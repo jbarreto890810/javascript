@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Test</title>
+</head>
+<body>
+    <script type="text/javascript">
+			
+			
+        var car = new Array();
+        car["door"] = "cuatro puertas";
+        car["color"] = "black";
+
+        document.write("El carro tiene " + car["door"]+" y las puertas de color " + car["color"]+"<br/>");
+
+        var n = prompt("PLease enter a number ")
+
+        var answer = Math.sqrt(n);
+
+        document.write(answer);
+
+        function clock() {
+            var time = new Date();
+            var hour= time.getHours();
+            var minutes= time.getMinutes();
+            var seconds=time.getSeconds();
+            document.write(hour+":"+minutes+":"+seconds+"<br/>");
+        }
+
+        document.write(setInterval("clock()", 3000));
+        
+        
+        
+        
+    </script>
+</body>
+</html>
